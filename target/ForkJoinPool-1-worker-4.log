@@ -1,0 +1,5 @@
+17:06:22.262 karate.env system property was:  
+17:06:34.933 waitUntil (js) - retry #1
+17:06:37.970 feature call failed: classpath:suite/accounts/loginUITest.feature
+arg: {"dni":"00671612)","usuario":"user","password":"pass"}
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;

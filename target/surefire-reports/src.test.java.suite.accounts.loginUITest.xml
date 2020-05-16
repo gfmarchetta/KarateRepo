@@ -1,0 +1,26 @@
+<testsuite failures="1" name="src/test/java/suite/accounts/loginUITest.feature" skipped="0" tests="1" time="19.66489">
+  <testcase classname="src.test.java.suite.accounts.loginUITest" name="realizar login" time="19.66489">
+    <failure message="loginUITest.feature:7 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=FCC63C8A34B112634A131907B738C273}], options: {type=chrome, target=null}">* configure driver = { type: 'chrome'} .................................... passed
+Given driver loginUrlTest ................................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: loginUITest.feature:7 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=FCC63C8A34B112634A131907B738C273}], options: {type=chrome, target=null}&#13;
+	at ✽.Given driver loginUrlTest (loginUITest.feature:7)&#13;
+
+And waitFor("//div[@id='app']/div[2]/div/div/div/form/div[2]/div/div/div/label").click() . skipped
+And retry().click("//div[@id='app']/div[2]/div/div/div/form/div[2]/div/div/div/label") . skipped
+And retry().input("input[id=text-30]", dni) ............................... skipped
+And retry().click("//div[@id='app']/div[2]/div/div/div/form/div[3]/div/label") . skipped
+And retry().input("input[id=text-32]", usuario) ........................... skipped
+And retry().click("//div[@id='app']/div[2]/div/div/div/form/div[3]/div[2]/label") . skipped
+And retry().input("input[id=password-33]",password) ....................... skipped
+When retry().click("input[id=conocerOferta]") ............................. skipped
+And retry().click("input[id=option-48]") .................................. skipped
+And retry().click("id=conocerOferta") ..................................... skipped
+And def access_token = value('#access_token') ............................. skipped
+Then print access_token ................................................... skipped
+And driver.quit() ......................................................... skipped
+Then print access_token ................................................... skipped
+And driver.quit() ......................................................... skipped</failure>
+  </testcase>
+</testsuite>

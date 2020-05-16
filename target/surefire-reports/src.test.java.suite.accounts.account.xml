@@ -1,0 +1,92 @@
+<testsuite failures="3" name="src/test/java/suite/accounts/account.feature" skipped="0" tests="3" time="25.305983">
+  <testcase classname="src.test.java.suite.accounts.account" name="validar servicio Accounts.Cliente:00671612" time="9.17523">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input(&quot;input[id=text-30]&quot;, dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.suite.accounts.account" name="validar servicio Accounts.Cliente:00672309" time="11.086175">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input(&quot;input[id=text-30]&quot;, dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.suite.accounts.account" name="validar servicio Accounts.Cliente:00670996" time="5.044578">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input(&quot;input[id=text-30]&quot;, dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input("input[id=text-30]", dni, 200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,23 @@
+<testsuite failures="1" name="src/test/java/suite/accounts/loginUI.feature" skipped="0" tests="1" time="13.335947">
+  <testcase classname="src.test.java.suite.accounts.loginUI" name="realizar login" time="13.335947">
+    <failure message="loginUI.feature:10 - javascript evaluation failed: retry().input('input[name=dni]', dni), ReferenceError: &quot;dni&quot; is not defined in &lt;eval&gt; at line number 1">* configure driver = { type: 'chrome'} .................................... passed
+Given driver loginUrlDesa ................................................. passed
+And waitFor('input[name=dni]').click() .................................... passed
+And retry().click('input[name=dni]') ...................................... passed
+And retry().input('input[name=dni]', dni) ................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: loginUI.feature:10 - javascript evaluation failed: retry().input('input[name=dni]', dni), ReferenceError: "dni" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.And retry().input('input[name=dni]', dni) (loginUI.feature:10)&#13;
+
+And retry().click('input[name=usuario]') .................................. skipped
+And retry().input('input[name=usuario]', usuario) ......................... skipped
+And retry().click('input[name=password]') ................................. skipped
+And retry().input('input[name=password]',password) ........................ skipped
+When retry().click("//input[@value='Aceptar']") ........................... skipped
+And retry().click("//input[@value='Permitir']") ........................... skipped
+And def access_token = value('#access_token') ............................. skipped
+Then print access_token ................................................... skipped
+And driver.quit() ......................................................... skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+17:06:22.266 karate.env system property was:  
+17:06:22.600 karate.env system property was:  
+17:06:24.928 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+17:06:25.765 response time in milliseconds: 835,09
+1 < 401
+1 < Content-Length: 141
+1 < Content-Type: application/json
+1 < Date: Sat, 16 May 2020 20:06:25 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=FF8E64EB837092AF87745B4D225C4F3F;Path=/;Expires=Thu, 06-Jan-2022 20:06:25 GMT]
+{"error":{"code":401,"status":"Unauthorized","reason":"Access token i says token is not active","message":"Access credentials are invalid"}}
+
+
+17:06:25.765 status code was: 401, expected: 404, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}
+17:06:25.793 karate.env system property was:  
+17:06:25.837 preferred port 9222 not available, will use: 12254
+17:06:35.491 waitUntil (js) - retry #1
+17:06:38.511 feature call failed: classpath:suite/accounts/loginUITest.feature
+arg: {"dni":"00672309)","usuario":"user","password":"pass"}
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;

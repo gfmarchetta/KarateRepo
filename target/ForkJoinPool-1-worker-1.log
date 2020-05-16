@@ -1,0 +1,197 @@
+17:06:22.258 karate.env system property was:  
+17:06:24.955 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+17:06:25.773 response time in milliseconds: 816,10
+1 < 401
+1 < Content-Length: 141
+1 < Content-Type: application/json
+1 < Date: Sat, 16 May 2020 20:06:25 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=FF9F1D8210ED25CEB7955FE4BF2C6B2A;Path=/;Expires=Thu, 06-Jan-2022 20:06:25 GMT]
+{"error":{"code":401,"status":"Unauthorized","reason":"Access token i says token is not active","message":"Access credentials are invalid"}}
+
+
+17:06:25.773 status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}
+17:06:25.797 karate.env system property was:  
+17:06:25.841 preferred port 9222 not available, will use: 12256
+17:06:34.594 feature call failed: classpath:suite/accounts/loginUITest.feature
+arg: {"dni":"00670996)","usuario":"user","password":"pass"}
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;
+uments/BBVA/RepoKarate/src/test/java/suite/accounts/loginUITest.feature
+arg: {"dni":"00670996)","usuario":"user","password":"pass"}
+loginUITest.feature:8 - javascript evaluation failed: waitFor("//div[@id='app']/div[2]/div/div/div/form/div[2]/div/div/div/label").click(), wait failed for: [//div[@id='app']/div[2]/div/div/div/form/div[2]/div/div/div/label] after 12167 milliseconds
+liseconds
+ "cbu_hash": "001f6a5ccfb04c68ea476c929367fa2d6a11331f4c9524a6a78bf67884b590c3",
+    "currency_code": "ARS"
+  },
+  {
+    "account_number": "402180067637",
+    "account_type": "SAVINGS",
+    "account_balance": "250000.00",
+    "updated_at": "2020-05-15T15:55:41Z",
+    "cbu": "0170218940000000676371",
+    "cbu_hash": "336f3d4abccb697db023816b42d16fe38de82950d91dd3a17169341a166c395a",
+    "currency_code": "ARS"
+  }
+]
+
+15:55:41.247 karate.env system property was:  
+15:55:41.277 preferred port 9222 not available, will use: 7120
+15:55:43.274 waitUntil (js) - retry #1
+15:55:46.678 waitUntil (js) - retry #1
+15:55:52.996 [print] BgO2y3IySYNY1Ts05g-5vkK4C176h09Tltzk0JE9Bdk.wMzHV1RM7kP_VVH1QcTmO82jpu6r5a6u6W_K0CYmEos
+
+15:55:53.045 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: bearer BgO2y3IySYNY1Ts05g-5vkK4C176h09Tltzk0JE9Bdk.wMzHV1RM7kP_VVH1QcTmO82jpu6r5a6u6W_K0CYmEos
+
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+15:55:53.531 response time in milliseconds: 485,68
+1 < 200
+1 < Cache-control: private
+1 < Content-Language: en-US
+1 < Content-Length: 257
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 18:56:45 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=3431D1B2AC6FF325645C52DE9A94A620;Path=/;Expires=Wed, 05-Jan-2022 18:55:53 GMT]
+1 < X-Powered-By: Servlet/3.1
+1 < X-Wily-Info: Clear guid=19B2295A4CF9E415CFFE1B3344051A1A
+1 < X-Wily-Servlet: Encrypt1 AceomkUZZyKyh4YJCPEK/Hy01Bh/GHOV803qgqU1t7JEhPDqJiNcxwFOQtEXX0AsyXPm+slRDmngYinK3cUBDrgOMg9XygXNQhIiihM08f0Ch5KlmTwrhxgLEjOvu0r7D/OdrgqVLFEpzFqXWL+dt6ViIF1AlJaE3JXo/xSasjjyn+7qVZbpbhdBXfMXP6Q6
+[{"cbu":"0170118640000000846068","cbu_hash":"113a179f757b93e8eaaad48b95cf1e1de1fb1da2da7b2c82185f16aba30e5007","account_type":"SAVINGS","account_number":"401180084606","account_balance":"249935.03","currency_code":"ARS","updated_at":"2020-05-18T13:13:42Z"}]
+
+15:55:53.532 [print] [
+  {
+    "account_number": "401180084606",
+    "account_type": "SAVINGS",
+    "account_balance": "249935.03",
+    "updated_at": "2020-05-18T13:13:42Z",
+    "cbu": "0170118640000000846068",
+    "cbu_hash": "113a179f757b93e8eaaad48b95cf1e1de1fb1da2da7b2c82185f16aba30e5007",
+    "currency_code": "ARS"
+  }
+]
+
+15:55:53.557 karate.env system property was:  
+15:55:53.589 preferred port 9222 not available, will use: 32909
+15:55:55.286 waitUntil (js) - retry #1
+15:55:58.684 waitUntil (js) - retry #1
+15:56:05.324 [print] 9_yG_LRjb9ekutnClIr5sTBu9dqD5KJSa9bhl5gNq00.ZdjUGhk54bwrVSRaTmF85O7kX_tt_rhWHJWNmPLYDsQ
+
+15:56:05.363 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: bearer 9_yG_LRjb9ekutnClIr5sTBu9dqD5KJSa9bhl5gNq00.ZdjUGhk54bwrVSRaTmF85O7kX_tt_rhWHJWNmPLYDsQ
+
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+15:56:05.699 response time in milliseconds: 335,63
+1 < 200
+1 < Cache-control: private
+1 < Content-Language: en-US
+1 < Content-Length: 257
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 18:56:57 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=15A0E5D6A8EC4133311F9A5EA7F1952B;Path=/;Expires=Wed, 05-Jan-2022 18:56:05 GMT]
+1 < X-Powered-By: Servlet/3.1
+1 < X-Wily-Info: Clear guid=19B258854CF9E41590D8A63D5809F29F
+1 < X-Wily-Servlet: Encrypt1 AceomkUZZyKyh4YJCPEK/Hy01Bh/GHOV803qgqU1t7JEhPDqJiNcxwFOQtEXX0As2JjdNw8oUFqQFVP1KkNAPNoi04dDRubNjls6ImpAW1g7uEx1/bAKynaZeVPCk8Q7g9cx7OmAmb7JCh7x9n+Ea3VDMa3l0QWrMJX4gk+vQF20LellBnbMJsyCp2zLoyT2
+[{"cbu":"0170304520000030079915","cbu_hash":"8ce8c1b5027100e8b1f93a7c7bce1512526d784a39f1e09640541056188c989f","account_type":"CURRENT","account_number":"203043007991","account_balance":"249884.60","currency_code":"ARS","updated_at":"2020-05-15T15:54:09Z"}]
+
+15:56:05.700 [print] [
+  {
+    "account_number": "203043007991",
+    "account_type": "CURRENT",
+    "account_balance": "249884.60",
+    "updated_at": "2020-05-15T15:54:09Z",
+    "cbu": "0170304520000030079915",
+    "cbu_hash": "8ce8c1b5027100e8b1f93a7c7bce1512526d784a39f1e09640541056188c989f",
+    "currency_code": "ARS"
+  }
+]
+
+r 11 at column number 1
+perty was:  
+11:23:46.412 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: 
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+11:23:46.474 response time in milliseconds: 62,19
+1 < 401
+1 < Content-Length: 90
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 14:23:46 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=BD2075C91F5C5A11D99F7DC950CEEAAD;Path=/;Expires=Wed, 05-Jan-2022 14:23:46 GMT]
+{"error":{"code":401,"status":"Unauthorized","message":"Access credentials are invalid"}}
+
+
+11:23:46.475 assertion failed: path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string
+11:23:46.481 karate.env system property was:  
+11:23:46.493 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: bearer Ju4VavWZkPl3vA9Qic048P641lJQ3k9LZmCbCP0WOEE.TT9U3m4qe9rpPxNZWN6K6-QzCZbpFL4SwoWGUXWah-Y
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+11:23:46.557 response time in milliseconds: 63,52
+1 < 401
+1 < Content-Length: 141
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 14:23:46 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=C074C14B24C0DE1CAC5B5C04033FCCBC;Path=/;Expires=Wed, 05-Jan-2022 14:23:46 GMT]
+{"error":{"code":401,"status":"Unauthorized","reason":"Access token i says token is not active","message":"Access credentials are invalid"}}
+
+
+11:23:46.561 assertion failed: path: $.error.message, actual: 'Access credentials are invalid', expected: 'The token provided already expired', reason: not a sub-string
+11:23:46.573 karate.env system property was:  
+11:23:46.576 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+11:23:46.637 response time in milliseconds: 60,19
+1 < 401
+1 < Content-Length: 90
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 14:23:46 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=20ABEB55327DCF2083B1AC065C663E30;Path=/;Expires=Wed, 05-Jan-2022 14:23:46 GMT]
+{"error":{"code":401,"status":"Unauthorized","message":"Access credentials are invalid"}}
+
+
+11:23:46.638 status code was: 401, expected: 404, response time: 60, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}
+11:23:46.645 karate.env system property was:  
+11:23:46.650 request:
+1 > GET https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api-play.bbva.com.ar
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+11:23:46.707 response time in milliseconds: 57,12
+1 < 401
+1 < Content-Length: 90
+1 < Content-Type: application/json
+1 < Date: Fri, 15 May 2020 14:23:46 GMT
+1 < Set-Cookie: [92e7efa1708da794e9a17a9b9b28b490=68d839c474b6d17d032ff07d36d230f8; path=/; HttpOnly; Secure, REQ_UNIQUE_ID=1DB03D7275A87717E1E5AA9FDBACD0C6;Path=/;Expires=Wed, 05-Jan-2022 14:23:46 GMT]
+{"error":{"code":401,"status":"Unauthorized","message":"Access credentials are invalid"}}
+
+
+11:23:46.708 status code was: 401, expected: 500, response time: 57, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}

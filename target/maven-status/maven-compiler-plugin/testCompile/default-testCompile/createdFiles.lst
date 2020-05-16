@@ -1,0 +1,3 @@
+suite\accounts\AccountsRunner.class
+suite\SuiteRunner.class
+suite\transfer\TransfersRunner.class

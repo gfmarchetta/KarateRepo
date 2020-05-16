@@ -1,0 +1,166 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=5760, tid=0x00000000000057fc
+#
+# JRE version:  (8.0_221-b11) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.221-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002b18000):  JavaThread "Unknown thread" [_thread_in_vm, id=22524, stack(0x0000000002910000,0x0000000002a10000)]
+
+Stack: [0x0000000002910000,0x0000000002a10000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002b18000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=22524, stack(0x0000000002910000,0x0000000002a10000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c5800000, size: 4008 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 75264K, used 1290K [0x000000076c800000, 0x0000000771c00000, 0x00000007c0000000)
+  eden space 64512K, 2% used [0x000000076c800000,0x000000076c942900,0x0000000770700000)
+  from space 10752K, 0% used [0x0000000771180000,0x0000000771180000,0x0000000771c00000)
+  to   space 10752K, 0% used [0x0000000770700000,0x0000000770700000,0x0000000771180000)
+ ParOldGen       total 172032K, used 0K [0x00000006c5800000, 0x00000006d0000000, 0x000000076c800000)
+  object space 172032K, 0% used [0x00000006c5800000,0x00000006c5800000,0x00000006d0000000)
+ Metaspace       used 776K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 76K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000121d0000,0x00000000129b0000] byte_map_base: 0x000000000eba4000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000060015ce0
+ Begin Bits: [0x00000000132f0000, 0x0000000017190000)
+ End Bits:   [0x0000000017190000, 0x000000001b030000)
+
+Polling page: 0x0000000000b20000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002e10000, 0x0000000003080000, 0x0000000011e10000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.051 loading class java/lang/Short
+Event: 0.051 loading class java/lang/Short done
+Event: 0.051 loading class java/lang/Integer
+Event: 0.051 loading class java/lang/Integer done
+Event: 0.051 loading class java/lang/Long
+Event: 0.051 loading class java/lang/Long done
+Event: 0.052 loading class java/lang/NullPointerException
+Event: 0.052 loading class java/lang/NullPointerException done
+Event: 0.052 loading class java/lang/ArithmeticException
+Event: 0.052 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff6b23e0000 - 0x00007ff6b2417000 	C:\Program Files\Java\jdk1.8.0_221\bin\java.exe
+0x00007ff8fd350000 - 0x00007ff8fd531000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff8fbd90000 - 0x00007ff8fbe41000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff8f9ff0000 - 0x00007ff8fa263000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff8fadc0000 - 0x00007ff8fae61000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff8fb120000 - 0x00007ff8fb1be000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff8fd2c0000 - 0x00007ff8fd31b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff8fb4f0000 - 0x00007ff8fb614000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff8faf90000 - 0x00007ff8fb120000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff8fa270000 - 0x00007ff8fa290000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff8faf60000 - 0x00007ff8faf88000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff8fa2f0000 - 0x00007ff8fa481000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff8fa730000 - 0x00007ff8fa7cf000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff8f9710000 - 0x00007ff8f9808000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff8dec90000 - 0x00007ff8deef9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.1425_none_d3fdcfc37c922690\COMCTL32.dll
+0x00007ff8fb1c0000 - 0x00007ff8fb4e1000 	C:\WINDOWS\System32\combase.dll
+0x00007ff8f9810000 - 0x00007ff8f9889000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ff8fbbe0000 - 0x00007ff8fbc0d000 	C:\WINDOWS\System32\IMM32.DLL
+0x00000000621c0000 - 0x0000000062292000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\msvcr100.dll
+0x000000005f7f0000 - 0x0000000060095000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\server\jvm.dll
+0x00007ff8fab40000 - 0x00007ff8fab48000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff8e0340000 - 0x00007ff8e0349000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff8fa910000 - 0x00007ff8fa97c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff8de360000 - 0x00007ff8de383000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff8f4870000 - 0x00007ff8f487a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff8de320000 - 0x00007ff8de34a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ff8f9890000 - 0x00007ff8f98d9000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ff8edae0000 - 0x00007ff8edaef000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\verify.dll
+0x00007ff8ecad0000 - 0x00007ff8ecaf9000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\java.dll
+0x00007ff8e6720000 - 0x00007ff8e6743000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\instrument.dll
+0x00007ff8ecab0000 - 0x00007ff8ecac6000 	C:\Program Files\Java\jdk1.8.0_221\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dorg.jetbrains.run.directory=C:\Users\gmarchetta\Documents\BBVA\RepoKarate\src\test\java\suite\accounts -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\lib\idea_rt.jar=2537:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin -Dfile.encoding=UTF-8 
+java_command: cucumber.api.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name ^validar consulta con credenciales invalidas STATUS CODE 401$ --glue com.intuit.karate C:/Users/gmarchetta/Documents/BBVA/RepoKarate/src/test/java/suite/accounts/account.feature
+java_class_path (initial): C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Users\gmarchetta\Documents\BBVA\RepoKarate\target\test-classes;C:\Users\gmarchetta\.m2\repository\com\intuit\karate\karate-apache\0.9.5\karate-apache-0.9.5.jar;C:\Users\gmarchetta\.m2\repository\com\intuit\karate\karate-core\0.9.5\karate-core-0.9.5.jar;C:\Users\gmarchetta\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\gmarchetta\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\gmarchetta\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\gmarchetta\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\gmarchetta\.m2\repository\info\cukes\cucumber-java
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_221
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apache-maven-3.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.242-3\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.242-3\jre\bin;C:\Ruby27-x64\bin;C:\Users\gmarchetta\Desktop\Prueba Cucumber+Selenium\BrowsersDrivers;C:\Users\gmarchetta\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\gmarchetta\AppData\Local\Programs\Python\Python37-32\;C:\Users\gmarchetta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\RubyMine 2019.2.1\bin;C:\Users\gmarchetta\AppData\Roaming\npm;C:\Users\gmarchetta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gmarchetta\AppData\Local\GitHubDesktop\bin
+USERNAME=gmarchetta
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1425)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 142 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 16416100k(2852408k free), swap 16416100k(5856k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.221-b11) for windows-amd64 JRE (1.8.0_221-b11), built on Jul  4 2019 04:39:29 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Fri May 01 04:10:51 2020
+timezone: Argentina Standard Time
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

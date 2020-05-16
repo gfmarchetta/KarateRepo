@@ -1,0 +1,284 @@
+<testsuite failures="6" name="suite/accounts/accountCbuHash.feature" skipped="0" tests="6" time="13.70337">
+  <testcase classname="suite.accounts.accountCbuHash" name="Validar deshasheo (OK)" time="3.401758">
+    <failure message="accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {&quot;error&quot;:{&quot;reason&quot;:&quot;Access token i says token is not active&quot;,&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.accountCbuHash" name="validar STATUS CODE 400" time="3.417335">
+    <failure message="accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {&quot;error&quot;:{&quot;reason&quot;:&quot;Access token i says token is not active&quot;,&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (accountCbuHash.feature:30)&#13;
+
+And match response == message_error[0] .................................... skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.accountCbuHash" name="validar consulta con credenciales invalidas STATUS CODE 401" time="3.393314">
+    <failure message="accountCbuHash.feature:42 - javascript evaluation failed: &quot;error&quot;: &quot;invalid_credentials&quot;, &lt;eval&gt;:1:7 Expected ; but found :&#13;&#10;&quot;error&quot;: &quot;invalid_credentials&quot;&#13;&#10;       ^ in &lt;eval&gt; at line number 1 at column number 7">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (accountCbuHash.feature:30)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_invalido ................................. passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response == "error": "invalid_credentials" ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:42 - javascript evaluation failed: "error": "invalid_credentials", &lt;eval&gt;:1:7 Expected ; but found :&#13;
+"error": "invalid_credentials"&#13;
+       ^ in &lt;eval&gt; at line number 1 at column number 7&#13;
+	at ✽.And match response == "error": "invalid_credentials" (accountCbuHash.feature:42)</failure>
+  </testcase>
+  <testcase classname="suite.accounts.accountCbuHash" name="validar consulta con credenciales invalidas STATUS CODE 401" time="0.209301">
+    <failure message="accountCbuHash.feature:39 - javascript evaluation failed: token_expírado, ReferenceError: &quot;token_expírado&quot; is not defined in &lt;eval&gt; at line number 1">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (accountCbuHash.feature:30)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_invalido ................................. passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response == "error": "invalid_credentials" ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:42 - javascript evaluation failed: "error": "invalid_credentials", &lt;eval&gt;:1:7 Expected ; but found :&#13;
+"error": "invalid_credentials"&#13;
+       ^ in &lt;eval&gt; at line number 1 at column number 7&#13;
+	at ✽.And match response == "error": "invalid_credentials" (accountCbuHash.feature:42)&#13;
+
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_expírado ................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:39 - javascript evaluation failed: token_expírado, ReferenceError: "token_expírado" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.And header Authorization = token_expírado (accountCbuHash.feature:39)&#13;
+
+When method GET ........................................................... skipped
+Then status 401 ........................................................... skipped
+And match response == "error": "token_expired" ............................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.accountCbuHash" name="validar consulta para usuarios sin cuentas STATUS CODE 404" time="3.167211">
+    <failure message="accountCbuHash.feature:56 - status code was: 401, expected: 404, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {&quot;error&quot;:{&quot;reason&quot;:&quot;Access token i says token is not active&quot;,&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (accountCbuHash.feature:30)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_invalido ................................. passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response == "error": "invalid_credentials" ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:42 - javascript evaluation failed: "error": "invalid_credentials", &lt;eval&gt;:1:7 Expected ; but found :&#13;
+"error": "invalid_credentials"&#13;
+       ^ in &lt;eval&gt; at line number 1 at column number 7&#13;
+	at ✽.And match response == "error": "invalid_credentials" (accountCbuHash.feature:42)&#13;
+
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_expírado ................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:39 - javascript evaluation failed: token_expírado, ReferenceError: "token_expírado" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.And header Authorization = token_expírado (accountCbuHash.feature:39)&#13;
+
+When method GET ........................................................... skipped
+Then status 401 ........................................................... skipped
+And match response == "error": "token_expired" ............................ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:56 - status code was: 401, expected: 404, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 404 (accountCbuHash.feature:56)&#13;
+
+And match response == message_error[2] .................................... skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.accountCbuHash" name="validar bad request" time="0.11445">
+    <failure message="accountCbuHash.feature:65 - status code was: 401, expected: 500, response time: 104, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {&quot;error&quot;:{&quot;reason&quot;:&quot;Access token i says token is not active&quot;,&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def responseAccount = read('rta00671612.json') .......................... passed
+* def message_error = read('error_message_account.json') .................. passed
+* def hash = responseAccount[0].cbu_hash .................................. passed
+Given path '/accounts/&lt;hash&gt;' ............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:17 - status code was: 401, expected: 200, response time: 816, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Chash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 200 (accountCbuHash.feature:17)&#13;
+
+And match response contains any { "cbu":'responseAccount[0].cbu' } ........ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:30 - status code was: 401, expected: 400, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (accountCbuHash.feature:30)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_invalido ................................. passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response == "error": "invalid_credentials" ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:42 - javascript evaluation failed: "error": "invalid_credentials", &lt;eval&gt;:1:7 Expected ; but found :&#13;
+"error": "invalid_credentials"&#13;
+       ^ in &lt;eval&gt; at line number 1 at column number 7&#13;
+	at ✽.And match response == "error": "invalid_credentials" (accountCbuHash.feature:42)&#13;
+
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+* def token_invalido = read('tokenInvalido.json') ......................... passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+And header Authorization = token_expírado ................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:39 - javascript evaluation failed: token_expírado, ReferenceError: "token_expírado" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.And header Authorization = token_expírado (accountCbuHash.feature:39)&#13;
+
+When method GET ........................................................... skipped
+Then status 401 ........................................................... skipped
+And match response == "error": "token_expired" ............................ skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:56 - status code was: 401, expected: 404, response time: 835, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 404 (accountCbuHash.feature:56)&#13;
+
+And match response == message_error[2] .................................... skipped
+* url baseUrl ............................................................. passed
+* header Authorization = 'bearer F9MHzuYZrfpRqNFBCa1uz8nYlO0FXV58FXf2NjKiJ6g.mCko309YYsj8aJ3jEO7po-zi8kpWiT6L7WT2_oVv1MI' . passed
+Given path '/accounts/&lt;cbu_hash&gt;' ......................................... passed
+When method GET ........................................................... passed
+Then status 500 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: accountCbuHash.feature:65 - status code was: 401, expected: 500, response time: 104, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts/%3Ccbu_hash%3E, response: {"error":{"reason":"Access token i says token is not active","code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 500 (accountCbuHash.feature:65)&#13;
+
+And match response == message_error[3] .................................... skipped</failure>
+  </testcase>
+</testsuite>

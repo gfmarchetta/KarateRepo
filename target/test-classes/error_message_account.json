@@ -1,0 +1,7 @@
+[
+  {"error": {"code": 400, "error_code": "invalid_request", "message": "The request performed is not supported."}},
+  {"error": {"code": 401, "error_code": "invalid_credentials", "message": "Invalid or missing credentials"}},
+  {"error": {"code": 401, "error_code": "token_expired", "message": "The token provided already expired"}},
+  {"error": {"code": 404, "error_code": "not_found", "message": "No accounts were found for the user."}},
+  {"error": {"code": 500, "error": "internal_server_error", "message": "Unexpected error. Please try again."}}
+]

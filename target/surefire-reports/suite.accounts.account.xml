@@ -1,0 +1,1392 @@
+<testsuite failures="13" name="suite/accounts/account.feature" skipped="0" tests="13" time="37.665363">
+  <testcase classname="suite.accounts.account" name="validar servicio Accounts.Cliente:00671612" time="15.606138">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar servicio Accounts.Cliente:00672309" time="12.716186">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar servicio Accounts.Cliente:00670996" time="8.780961">
+    <failure message="account.feature:14 - &#10;loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar respuesta de la consulta de todas las cuentas de un cliente (OK)" time="0.03198">
+    <failure message="account.feature:32 - &#10;loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: &quot;loginUrlDesa&quot; is not defined in &lt;eval&gt; at line number 1">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar consulta Ok al consultar por un cbu" time="0.01267">
+    <failure message="account.feature:53 - &#10;loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: &quot;loginUrlDesa&quot; is not defined in &lt;eval&gt; at line number 1">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar consulta Ok al consultar por un cbu" time="0.030939">
+    <failure message="account.feature:53 - &#10;loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: &quot;loginUrlDesa&quot; is not defined in &lt;eval&gt; at line number 1">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar que la respuesta de la consulta corresponda al cbu indicado" time="0.011247">
+    <failure message="account.feature:70 - &#10;loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: &quot;loginUrlDesa&quot; is not defined in &lt;eval&gt; at line number 1">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="Validar error en el request (Error 400)" time="0.082835">
+    <failure message="account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {&quot;error&quot;:{&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="Validar error en la autenticacion (Error 401)" time="0.095727">
+    <failure message="account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[0].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="Validar error en la autenticacion (Error 401)" time="0.086281">
+    <failure message="account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[0].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[1].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="Validar error en la autenticacion (Error 401)" time="0.079168">
+    <failure message="account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'The token provided already expired', reason: not a sub-string">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[0].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[1].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[2].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[2].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'The token provided already expired', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[2].error.message (account.feature:105)</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar consulta para usuarios sin productos (Error 404)" time="0.067736">
+    <failure message="account.feature:118 - status code was: 401, expected: 404, response time: 65, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {&quot;error&quot;:{&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[0].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[1].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[2].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[2].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'The token provided already expired', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[2].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:118 - status code was: 401, expected: 404, response time: 65, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 404 (account.feature:118)&#13;
+
+And match response == message_error[2] .................................... skipped</failure>
+  </testcase>
+  <testcase classname="suite.accounts.account" name="validar error interno del servidor (Rrror 500)" time="0.063495">
+    <failure message="account.feature:125 - status code was: 401, expected: 500, response time: 61, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {&quot;error&quot;:{&quot;code&quot;:401,&quot;message&quot;:&quot;Access credentials are invalid&quot;,&quot;status&quot;:&quot;Unauthorized&quot;}}">* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00671612), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00672309), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:14 - 
+loginUITest.feature:10 - javascript evaluation failed: retry().input('input[id=text-30]',dni,200), Cannot cast java.lang.String to [Ljava.lang.String;&#13;
+	at ✽.* def result = call read('loginUITest.feature') {dni:00670996), usuario:user, password:pass} (account.feature:14)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def token = result.access_token ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:32 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:32)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[2]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+And match response[1].account_number == responseAccount[1].account_number . skipped
+And match response[1].account_type == responseAccount[1].account_type ..... skipped
+And match response[1].cbu == responseAccount[1].cbu ....................... skipped
+And match response[1].cbu_hash == responseAccount[1].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:53 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:53)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer ' + token ................................ skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* param cbuHash = cbu[1].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And print response ........................................................ skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:70 - 
+loginUI.feature:7 - javascript evaluation failed: loginUrlDesa, ReferenceError: "loginUrlDesa" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def result = call read('loginUI.feature') {dni:00671612), usuario:user, password:pass} (account.feature:70)&#13;
+
+* def token = result.access_token ......................................... skipped
+* header Authorization = 'bearer' + ' ' + token ........................... skipped
+* def cbu = read('cbuHash.json') .......................................... skipped
+* def responseAccount = read('rta00671612.json') .......................... skipped
+* param cbuHash = cbu[0].cbu_hash ......................................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == '#[1]' .............................................. skipped
+And match response[0].account_number == responseAccount[0].account_number . skipped
+And match response[0].account_type == responseAccount[0].account_type ..... skipped
+And match response[0].cbu == responseAccount[0].cbu ....................... skipped
+And match response[0].cbu_hash == responseAccount[0].cbu_hash ............. skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+* print request ........................................................... passed
+Then status 400 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:94 - status code was: 401, expected: 400, response time: 72, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 400 (account.feature:94)&#13;
+
+And match response == message_error[0] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[0].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[1].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[1].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'Invalid or missing credentials', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[1].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+* def error = read('error_message_account.json') .......................... passed
+* def token = read('tokenInvalido.json') .................................. passed
+* header Authorization = token[2].token ................................... passed
+When method GET ........................................................... passed
+Then status 401 ........................................................... passed
+And match response.error.message contains error[2].error.message .......... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:105 - path: $.error.message, actual: 'Access credentials are invalid', expected: 'The token provided already expired', reason: not a sub-string&#13;
+	at ✽.And match response.error.message contains error[2].error.message (account.feature:105)&#13;
+
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:118 - status code was: 401, expected: 404, response time: 65, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 404 (account.feature:118)&#13;
+
+And match response == message_error[2] .................................... skipped
+* url baseUrl + '/accounts' ............................................... passed
+When method GET ........................................................... passed
+Then status 500 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: account.feature:125 - status code was: 401, expected: 500, response time: 61, url: https://api-play.bbva.com.ar/apibbvachannel/accounts/accounts, response: {"error":{"code":401,"message":"Access credentials are invalid","status":"Unauthorized"}}&#13;
+	at ✽.Then status 500 (account.feature:125)&#13;
+
+And match response == message_error[3] .................................... skipped</failure>
+  </testcase>
+</testsuite>
